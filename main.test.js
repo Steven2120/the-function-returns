@@ -2,6 +2,43 @@
  * YOUR CODE HERE *
  ******************/
 
+ let greeting = "Hello";
+ let sum = 0;
+ let prod = 0;
+
+ function greet(str) {
+   greeting = greeting + " " + str;
+   return greeting;
+ }
+
+ function sumOfTwo(num1, num2) {
+   sum = num1 + num2;
+   return sum;
+ }
+ 
+ function multiply(num3, num4, num5) {
+   prod = num3 * num4 * num5;
+   return prod;
+ }
+
+ function sayHi(str) {
+   return "Hello " + str + "!";
+ }
+
+ function returnWhatISay(str) {
+   return str;
+ }
+
+ function divide(num6, num7) {
+   return num6 / num7;
+ }
+
+ function remainder(num8, num9) {
+   return num8 % num9;
+ }
+
+
+
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
